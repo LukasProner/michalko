@@ -1,0 +1,21 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: red;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+div {
+    display: flex;
+    justify-content: center; /* Zarovnanie obsahu vodorovne */
+    align-items: center; /* Zarovnanie obsahu zvisle */
+    height: 100vh; /* Výška stránky je rovná výške obrazovky */
+    margin: 0; /* Odstrániť vnútorné okraje */
+}
+html{
+    height: 100px; /* Nastaviť pevnú výšku stránky na 1000px */
+    margin: 0; /* Odstrániť vnútorné okraje */
+    padding: 0; /* Odstrániť vnútorný padding */
+}
