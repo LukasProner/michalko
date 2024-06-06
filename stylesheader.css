@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    
+}
+
+body {
+    background-image: url('images/pozadie_upravene.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+a:link, a:visited {
+    font-size: 1.4em;
+    color: beige;
+    font-weight: bold;
+    text-decoration: none;
+}
