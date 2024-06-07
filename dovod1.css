@@ -3,16 +3,12 @@ h1 {
     font-size: 36px;
     color: red;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 div {
-    position: absolute;
-    top: 170px;
-    bottom: 0;
-    left: 0;
-    margin: 0;
+    position: relative;
     background-color: rgba(255, 255, 255, 0.7); /* Príklad: transparentný pozadie */
     padding: 10px;
     width: 100%;
@@ -34,16 +30,14 @@ a:link, a:visited {
     text-decoration: none;
     text-decoration: underline;
 }
-h2{
-    position: absolute;
-    color: red;
-    font-family: 'Arial', sans-serif;
-    font-size: 30px;
-    color: red;
-    top: 550px; 
-    margin-left: 1050px;
-}
+
 img{
     width: 100%;
     border-radius: 20px;
+}
+a:hover{
+    color: black;
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
 }
