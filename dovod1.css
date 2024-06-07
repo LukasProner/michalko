@@ -20,9 +20,6 @@ div {
     text-align: center;
 }
 html{
-    height: 100px; /* Nastaviť pevnú výšku stránky na 1000px */
-    margin: 0; /* Odstrániť vnútorné okraje */
-    padding: 0; /* Odstrániť vnútorný padding */
     background-color: black;
 }
 p{
@@ -45,4 +42,8 @@ h2{
     color: red;
     top: 550px; 
     margin-left: 1050px;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
 }
